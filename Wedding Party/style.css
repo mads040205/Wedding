@@ -484,6 +484,18 @@ video {
   src: url(\fonts\PlayfairDisplay-Italic-VariableFont_wght.ttf) format('ttf');
 }
 
+@font-face {
+  font-family: "Butterflykids", cursive;
+
+  font-optical-sizing: auto;
+
+  font-weight: 400;
+
+  font-style: normal;
+
+  src: url(\fonts\ButterflyKids-Regular.ttf) format('ttf');
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -592,16 +604,16 @@ video {
   margin: 0.5rem;
 }
 
-.m-8 {
-  margin: 2rem;
-}
-
 .ml-2 {
   margin-left: 0.5rem;
 }
 
-.ml-4 {
-  margin-left: 1rem;
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.mr-12 {
+  margin-right: 3rem;
 }
 
 .mr-2 {
@@ -612,24 +624,16 @@ video {
   margin-top: 0.25rem;
 }
 
-.ml-8 {
-  margin-left: 2rem;
-}
-
-.ml-6 {
-  margin-left: 1.5rem;
-}
-
-.-mr-2 {
-  margin-right: -0.5rem;
-}
-
-.ml-auto {
-  margin-left: auto;
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .flex {
   display: flex;
+}
+
+.h-auto {
+  height: auto;
 }
 
 .h-fit {
@@ -641,48 +645,8 @@ video {
   height: 100vh;
 }
 
-.h-1 {
-  height: 0.25rem;
-}
-
-.h-auto {
-  height: auto;
-}
-
-.h-0 {
-  height: 0px;
-}
-
-.h-0\.5 {
-  height: 0.125rem;
-}
-
-.h-2 {
-  height: 0.5rem;
-}
-
-.h-3 {
-  height: 0.75rem;
-}
-
-.h-4 {
-  height: 1rem;
-}
-
-.h-5 {
-  height: 1.25rem;
-}
-
-.h-6 {
-  height: 1.5rem;
-}
-
-.h-7 {
-  height: 1.75rem;
-}
-
-.h-8 {
-  height: 2rem;
+.w-80 {
+  width: 20rem;
 }
 
 .w-fit {
@@ -690,44 +654,8 @@ video {
   width: fit-content;
 }
 
-.w-1 {
-  width: 0.25rem;
-}
-
-.w-2 {
-  width: 0.5rem;
-}
-
-.w-20 {
-  width: 5rem;
-}
-
-.w-96 {
-  width: 24rem;
-}
-
-.w-80 {
-  width: 20rem;
-}
-
-.w-72 {
-  width: 18rem;
-}
-
-.origin-center {
-  transform-origin: center;
-}
-
-.snap-center {
-  scroll-snap-align: center;
-}
-
 .flex-col {
   flex-direction: column;
-}
-
-.content-center {
-  align-content: center;
 }
 
 .items-center {
@@ -742,35 +670,23 @@ video {
   justify-content: space-between;
 }
 
-.justify-items-center {
-  justify-items: center;
-}
-
-.place-self-center {
-  place-self: center;
-}
-
-.self-center {
-  align-self: center;
-}
-
 .border-2 {
   border-width: 2px;
 }
 
-.border-violet-200 {
+.border-Our-Purple-100 {
   --tw-border-opacity: 1;
-  border-color: rgb(221 214 254 / var(--tw-border-opacity));
+  border-color: rgb(210 210 255 / var(--tw-border-opacity));
 }
 
-.bg-Eucalyptus {
+.bg-Eucalyptus-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(100 132 116 / var(--tw-bg-opacity));
 }
 
-.bg-violet-100 {
+.bg-Our-Purple-25 {
   --tw-bg-opacity: 1;
-  background-color: rgb(237 233 254 / var(--tw-bg-opacity));
+  background-color: rgb(225 225 255 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-90 {
@@ -789,25 +705,12 @@ video {
   background-size: cover;
 }
 
-.bg-center {
-  background-position: center;
-}
-
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
 
-.object-center {
-  -o-object-position: center;
-     object-position: center;
-}
-
 .p-3 {
   padding: 0.75rem;
-}
-
-.p-4 {
-  padding: 1rem;
 }
 
 .p-6 {
@@ -816,6 +719,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.font-Butterflykids {
+  font-family: Butterflykids, cursive;
 }
 
 .font-Truculenta {
@@ -830,14 +737,6 @@ video {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
-.font-Space-Grotesk {
-  font-family: "Space Grotesk", sans-serif;
-}
-
-.font-mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -848,60 +747,37 @@ video {
   line-height: 2.5rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 .font-extralight {
   font-weight: 200;
 }
 
-.font-light {
-  font-weight: 300;
+.font-semibold {
+  font-weight: 600;
 }
 
-.font-thin {
-  font-weight: 100;
-}
-
-.font-extrabold {
-  font-weight: 800;
-}
-
-.text-violet-300 {
+.text-Eucalyptus-700 {
   --tw-text-opacity: 1;
-  color: rgb(196 181 253 / var(--tw-text-opacity));
+  color: rgb(100 132 116 / var(--tw-text-opacity));
+}
+
+.text-Eucalyptus-800 {
+  --tw-text-opacity: 1;
+  color: rgb(86 116 104 / var(--tw-text-opacity));
+}
+
+.text-Eucalyptus-900 {
+  --tw-text-opacity: 1;
+  color: rgb(70 100 92 / var(--tw-text-opacity));
+}
+
+.text-Our-Purple-400 {
+  --tw-text-opacity: 1;
+  color: rgb(180 180 255 / var(--tw-text-opacity));
 }
 
 .text-zinc-50 {

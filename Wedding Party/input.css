@@ -31,3 +31,12 @@
     src: url(\fonts\PlayfairDisplay-Italic-VariableFont_wght.ttf) format('ttf');
     }
   }
+  @layer base {
+    @font-face {
+      font-family: "Butterflykids", cursive;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+    src: url(\fonts\ButterflyKids-Regular.ttf) format('ttf');
+    }
+  }
