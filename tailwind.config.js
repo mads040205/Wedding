@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./index.html','styles.css', 'styles-i.css'],
+  content: ['./index.html','styles.css', 'input.css'],
   theme: {
     extend: {
       colors: {
@@ -22,8 +22,17 @@ module.exports = {
         'Eucalyptus-600':'#789687',
         'Eucalyptus-650':'#6f8f7f',
         'Eucalyptus-700':'#648474',
+        'Eucalyptus-750':'#5e7c6e',
+        'Eucalyptus-800':'#567468',
+        'Eucalyptus-850':'#4e6c62',
+        'Eucalyptus-900':'#46645c',
+        'Eucalyptus-950':'#3e5c56',
         //Our-Purple colors//
         'Our-Purple-15':'#ededff',
+        'Our-Purple-16':'#ececff',
+        'Our-Purple-17':'#ebebff',
+        'Our-Purple-18':'#eaeaff',
+        'Our-Purple-19':'#e8e8ff',
         'Our-Purple-20':'#e7e7ff',
         'Our-Purple-25':'#e1e1ff',
         'Our-Purple-50':'#dcdcff',
@@ -48,9 +57,10 @@ module.exports = {
         'Our-Purple-950':'#7076e2',
       },
       fontFamily: {
-        'Truculenta': ['Truculenta', 'sans-serif'],
-        'DancingScript-Variable': ['"DancingScript-Variable"', 'cursive'],
+        'Truculenta': ['Truculenta', 'menlo'],
         'Space-Grotesk': ['"Space Grotesk"', 'sans-serif'],
+        'PlayFairDisplay-Italic-Variable': ['PlayFairDisplay-Italic-Variable', 'serif'],
+        'Butterflykids': ['Butterflykids', 'cursive'],
       },
     },
   },
