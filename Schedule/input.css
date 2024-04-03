@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: "Truculenta", arial;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+      font-display: auto;
+      src: url(..\fonts\Truculenta-VariableFont_opsz,wdth,wght.ttf) format('ttf');
+    }
+  }
+  @layer base {
+    @font-face {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+    src: url(..\fonts\SpaceGrotesk-VariableFont_wght.ttf) format('ttf');
+    }
+  }
+  @layer base {
+    @font-face {
+      font-family: "PlayFairDisplay-Italic-Variable", serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+    src: url(..\fonts\PlayfairDisplay-Italic-VariableFont_wght.ttf) format('ttf');
+    }
+  }
+  @layer base {
+    @font-face {
+      font-family: "Butterflykids", cursive;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+    src: url(..\fonts\ButterflyKids-Regular.ttf) format('ttf');
+    }
+  }

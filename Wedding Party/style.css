@@ -455,7 +455,7 @@ video {
 
   font-display: auto;
 
-  src: url(\fonts\Truculenta-VariableFont_opsz,wdth,wght.ttf) format('ttf');
+  src: url(..\fonts\Truculenta-VariableFont_opsz,wdth,wght.ttf) format('ttf');
 }
 
 @font-face {
@@ -469,7 +469,7 @@ video {
 
   font-display: auto;
 
-  src: url(\fonts\SpaceGrotesk-VariableFont_wght.ttf) format('ttf');
+  src: url(..\fonts\SpaceGrotesk-VariableFont_wght.ttf) format('ttf');
 }
 
 @font-face {
@@ -481,7 +481,7 @@ video {
 
   font-style: normal;
 
-  src: url(\fonts\PlayfairDisplay-Italic-VariableFont_wght.ttf) format('ttf');
+  src: url(..\fonts\PlayfairDisplay-Italic-VariableFont_wght.ttf) format('ttf');
 }
 
 @font-face {
@@ -493,7 +493,7 @@ video {
 
   font-style: normal;
 
-  src: url(\fonts\ButterflyKids-Regular.ttf) format('ttf');
+  src: url(..\fonts\ButterflyKids-Regular.ttf) format('ttf');
 }
 
 *, ::before, ::after {
@@ -608,32 +608,20 @@ video {
   margin-left: 0.5rem;
 }
 
-.ml-8 {
-  margin-left: 2rem;
-}
-
-.mr-12 {
-  margin-right: 3rem;
-}
-
 .mr-2 {
   margin-right: 0.5rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
 }
 
 .mt-1 {
   margin-top: 0.25rem;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
 .flex {
   display: flex;
-}
-
-.h-auto {
-  height: auto;
 }
 
 .h-fit {
@@ -645,13 +633,17 @@ video {
   height: 100vh;
 }
 
-.w-80 {
-  width: 20rem;
+.h-auto {
+  height: auto;
 }
 
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.w-80 {
+  width: 20rem;
 }
 
 .flex-col {
@@ -717,8 +709,16 @@ video {
   padding: 1.5rem;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .font-Butterflykids {
@@ -731,10 +731,6 @@ video {
 
 .font-sans {
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-.font-serif {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .text-2xl {
@@ -760,6 +756,16 @@ video {
   font-weight: 600;
 }
 
+.text-Our-Purple-400 {
+  --tw-text-opacity: 1;
+  color: rgb(180 180 255 / var(--tw-text-opacity));
+}
+
+.text-zinc-50 {
+  --tw-text-opacity: 1;
+  color: rgb(250 250 250 / var(--tw-text-opacity));
+}
+
 .text-Eucalyptus-700 {
   --tw-text-opacity: 1;
   color: rgb(100 132 116 / var(--tw-text-opacity));
@@ -773,16 +779,6 @@ video {
 .text-Eucalyptus-900 {
   --tw-text-opacity: 1;
   color: rgb(70 100 92 / var(--tw-text-opacity));
-}
-
-.text-Our-Purple-400 {
-  --tw-text-opacity: 1;
-  color: rgb(180 180 255 / var(--tw-text-opacity));
-}
-
-.text-zinc-50 {
-  --tw-text-opacity: 1;
-  color: rgb(250 250 250 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {

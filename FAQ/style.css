@@ -604,80 +604,16 @@ video {
   margin: 0.5rem;
 }
 
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-
 .ml-2 {
   margin-left: 0.5rem;
-}
-
-.ml-32 {
-  margin-left: 8rem;
-}
-
-.ml-48 {
-  margin-left: 12rem;
-}
-
-.ml-6 {
-  margin-left: 1.5rem;
 }
 
 .mr-2 {
   margin-right: 0.5rem;
 }
 
-.mr-6 {
-  margin-right: 1.5rem;
-}
-
-.mt-0 {
-  margin-top: 0px;
-}
-
-.mt-0\.5 {
-  margin-top: 0.125rem;
-}
-
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
-.inline {
-  display: inline;
-}
-
 .flex {
   display: flex;
-}
-
-.h-0 {
-  height: 0px;
-}
-
-.h-0\.5 {
-  height: 0.125rem;
-}
-
-.h-24 {
-  height: 6rem;
-}
-
-.h-28 {
-  height: 7rem;
 }
 
 .h-fit {
@@ -689,34 +625,9 @@ video {
   height: 100vh;
 }
 
-.w-0 {
-  width: 0px;
-}
-
-.w-0\.5 {
-  width: 0.125rem;
-}
-
-.w-20 {
-  width: 5rem;
-}
-
-.w-40 {
-  width: 10rem;
-}
-
-.w-auto {
-  width: auto;
-}
-
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
-}
-
-.rotate-12 {
-  --tw-rotate: 12deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .flex-col {
@@ -762,10 +673,6 @@ video {
   --tw-bg-opacity: 0.95;
 }
 
-.bg-\[url\(\'https\:\/\/img\.freepik\.com\/free-vector\/floral-background-with-empty-space_23-2148831578\.jpg\?size\=626\&ext\=jpg\&ga\=GA1\.1\.1395880969\.1710028800\&semt\=ais\'\)\] {
-  background-image: url('https://img.freepik.com/free-vector/floral-background-with-empty-space_23-2148831578.jpg?size=626&ext=jpg&ga=GA1.1.1395880969.1710028800&semt=ais');
-}
-
 .bg-cover {
   background-size: cover;
 }
@@ -776,6 +683,10 @@ video {
 
 .p-3 {
   padding: 0.75rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .text-center {
@@ -791,42 +702,8 @@ video {
   line-height: 2rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
 .font-extralight {
   font-weight: 200;
-}
-
-.text-Eucalyptus-700 {
-  --tw-text-opacity: 1;
-  color: rgb(100 132 116 / var(--tw-text-opacity));
-}
-
-.text-Eucalyptus-950 {
-  --tw-text-opacity: 1;
-  color: rgb(62 92 86 / var(--tw-text-opacity));
 }
 
 .text-Our-Purple-400 {
