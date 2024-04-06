@@ -616,16 +616,43 @@ video {
   display: flex;
 }
 
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 .h-screen {
   height: 100vh;
+}
+
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .flex-col {
   flex-direction: column;
 }
 
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-our-purple-100 {
+  --tw-border-opacity: 1;
+  border-color: rgb(225 219 239 / var(--tw-border-opacity));
 }
 
 .bg-Eucalyptus-700 {
@@ -633,9 +660,14 @@ video {
   background-color: rgb(100 132 116 / var(--tw-bg-opacity));
 }
 
-.bg-Our-Purple-25 {
+.bg-Ivory-100 {
   --tw-bg-opacity: 1;
-  background-color: rgb(225 225 255 / var(--tw-bg-opacity));
+  background-color: rgb(255 249 230 / var(--tw-bg-opacity));
+}
+
+.bg-our-purple-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(225 219 239 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-90 {
@@ -644,6 +676,10 @@ video {
 
 .bg-opacity-95 {
   --tw-bg-opacity: 0.95;
+}
+
+.bg-\[url\(\'https\:\/\/img\.freepik\.com\/free-vector\/floral-background-with-empty-space_23-2148831578\.jpg\?size\=626\&ext\=jpg\&ga\=GA1\.1\.1395880969\.1710028800\&semt\=ais\'\)\] {
+  background-image: url('https://img.freepik.com/free-vector/floral-background-with-empty-space_23-2148831578.jpg?size=626&ext=jpg&ga=GA1.1.1395880969.1710028800&semt=ais');
 }
 
 .bg-cover {
@@ -656,6 +692,10 @@ video {
 
 .p-3 {
   padding: 0.75rem;
+}
+
+.p-7 {
+  padding: 1.75rem;
 }
 
 .text-center {
@@ -671,27 +711,18 @@ video {
   line-height: 2rem;
 }
 
-.font-bold {
-  font-weight: 700;
-}
-
 .font-extralight {
   font-weight: 200;
 }
 
-.text-Our-Purple-400 {
+.text-Ivory-100 {
   --tw-text-opacity: 1;
-  color: rgb(180 180 255 / var(--tw-text-opacity));
+  color: rgb(255 249 230 / var(--tw-text-opacity));
 }
 
-.text-purple-900 {
+.text-our-purple-100 {
   --tw-text-opacity: 1;
-  color: rgb(88 28 135 / var(--tw-text-opacity));
-}
-
-.text-zinc-50 {
-  --tw-text-opacity: 1;
-  color: rgb(250 250 250 / var(--tw-text-opacity));
+  color: rgb(225 219 239 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {

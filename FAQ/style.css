@@ -650,9 +650,9 @@ video {
   border-width: 2px;
 }
 
-.border-Our-Purple-100 {
+.border-gray-200 {
   --tw-border-opacity: 1;
-  border-color: rgb(210 210 255 / var(--tw-border-opacity));
+  border-color: rgb(229 231 235 / var(--tw-border-opacity));
 }
 
 .bg-Eucalyptus-700 {
@@ -660,9 +660,14 @@ video {
   background-color: rgb(100 132 116 / var(--tw-bg-opacity));
 }
 
-.bg-Our-Purple-25 {
+.bg-Ivory-100 {
   --tw-bg-opacity: 1;
-  background-color: rgb(225 225 255 / var(--tw-bg-opacity));
+  background-color: rgb(255 249 230 / var(--tw-bg-opacity));
+}
+
+.bg-our-purple-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(225 219 239 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-90 {
@@ -671,6 +676,10 @@ video {
 
 .bg-opacity-95 {
   --tw-bg-opacity: 0.95;
+}
+
+.bg-\[url\(\'https\:\/\/img\.freepik\.com\/free-vector\/floral-background-with-empty-space_23-2148831578\.jpg\?size\=626\&ext\=jpg\&ga\=GA1\.1\.1395880969\.1710028800\&semt\=ais\'\)\] {
+  background-image: url('https://img.freepik.com/free-vector/floral-background-with-empty-space_23-2148831578.jpg?size=626&ext=jpg&ga=GA1.1.1395880969.1710028800&semt=ais');
 }
 
 .bg-cover {
@@ -685,8 +694,8 @@ video {
   padding: 0.75rem;
 }
 
-.p-6 {
-  padding: 1.5rem;
+.p-7 {
+  padding: 1.75rem;
 }
 
 .text-center {
@@ -706,14 +715,14 @@ video {
   font-weight: 200;
 }
 
-.text-Our-Purple-400 {
+.text-Ivory-100 {
   --tw-text-opacity: 1;
-  color: rgb(180 180 255 / var(--tw-text-opacity));
+  color: rgb(255 249 230 / var(--tw-text-opacity));
 }
 
-.text-zinc-50 {
+.text-our-purple-100 {
   --tw-text-opacity: 1;
-  color: rgb(250 250 250 / var(--tw-text-opacity));
+  color: rgb(225 219 239 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
